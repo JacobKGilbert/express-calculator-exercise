@@ -7,7 +7,7 @@ function sortArr(arr) {
 /** Takes in array and sums all numbers then divides by amount of numbers (aka average) */
 function mean(arr) {
   let sum = 0
-  let divider = arr.length + 1
+  let divider = arr.length
   let mean
 
   for (const num of arr) {

@@ -7,7 +7,7 @@ beforeEach(() => {
 })
 
 test('mean should return the average of array of numbers', () => {
-  expect(mean(arr)).toBeCloseTo(3.4)
+  expect(mean(arr)).toBeCloseTo(3.78)
 })
 
 test('median should return the middle number from sorted array', () => {
